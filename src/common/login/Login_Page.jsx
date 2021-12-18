@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './Login_Page.css';
-import Messenger from './messenger.png';
+import Messenger from './messenger.jpg';
 import PropTypes from 'prop-types';
 import {io} from 'socket.io-client';
 import {useForm} from 'react-hook-form';
@@ -81,6 +81,7 @@ function Login_Page(props) {
                 <div className='form-container sign-in-container'>
                     <form className='form-login' onSubmit={handleSubmit(onLogin)}>
                     <h1 className='h1-title'>Sign in</h1>
+                    <h5>Account is default !</h5>
                     <input type='email' className='rounded input-login' placeholder='Email'
                         {...setValue('email', infoLogin.email)}
                         {...register('email', {required: true})}
@@ -97,13 +98,13 @@ function Login_Page(props) {
                     <button className='btn-submit' type='submit'>Sign In</button>
                     </form>
                 </div>
-                <div className='overlay-container'>
+                {/* <div className='overlay-container'>
                     <div className='overlay'>
                         <div className='overlay-panel overlay-right'>
                             <img src={Messenger} style={{maxWidth:'20vh'}} alt='...'/>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );

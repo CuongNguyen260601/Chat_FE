@@ -68,14 +68,14 @@ function List_Conversation(props) {
                     }
                 </div>
             </div>
-            <form className="rounded pt-1">
+            {/* <form className="rounded pt-1">
                 <div className="input-group">
                     <input type="text" className="form-control bg-light" placeholder="Search"/>
                     <div className="input-group-prepend">
                         <button className="input-group-text bg-light rounded-right" id="basic-addon1"><i className="bi bi-search"></i></button>
                     </div>
                 </div>
-            </form>
+            </form> */}
             <div className='list' style={{height: '70vh', overflowY: 'auto'}}>
                 {listConversation.map((conversation, index)=>(
                      <Conversation Conversation={conversation} key={index} OnClickOpenBoxChat = {OnClickOpenBoxChat} Socket={Socket}/>
