@@ -111,7 +111,7 @@ function Chat_User(props) {
     }, []);
 
     return (
-        <div className='container p-5'>
+        <div className='container '>
             <div className='mt-2'>
                 <BoxChat_User Socket = {Socket}/>
             </div>

@@ -140,7 +140,7 @@ function BoxChat_User(props) {
     }
 
     return (
-        <div className='border border-primary p-1 rounded' onLoad={()=>{
+        <div className='border border-primary p-1 rounded h-100' onLoad={()=>{
             if(page == 0){
             document.getElementById("load1").scrollTop = document.getElementById("load1").scrollHeight; 
             }
@@ -194,10 +194,12 @@ function BoxChat_User(props) {
                                     const imageFile = event.target.files[0];
                                     const imageUrl = URL.createObjectURL(imageFile);
                                     setImage(imageUrl);
+                                    document.getElementById('textSend').focus();
                                 }}
+
                             />
                         </div>
-                        <input type="text" className="form-control bg-light" placeholder="Message"
+                        <input type="text" className="form-control bg-light" placeholder="Message" id='textSend'
                             {...setValue('text',formMes.text)}
                             {...register('text',{required: true, minLength: 1})}
                             onChange = {onChangeData}
