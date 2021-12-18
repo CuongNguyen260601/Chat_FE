@@ -7,6 +7,8 @@ import Login_Page from './login/Login_Page';
 import Chat_User from './user/Chat_User';
 import Chat_Admin from './admin/Chat_Admin';
 import { setSender, setListUserOnline, setListUserInRoom} from '../redux_action/User_Action';
+import Icon_Admin from './../component/admin/Icon_Admin';
+import Icon_User from '../component/user/Icon_User';
 
 function Home_Page() {
 
@@ -77,7 +79,16 @@ function Home_Page() {
         return (
             <Router>
                 <Switch>
-                    <Route exact path='/*' render = {
+                    <Route path='/' render = {
+                        ()=>{
+                            return (
+                                <div>
+                                    <Icon_Admin/>
+                                </div>
+                            )
+                        }
+                    }/>
+                    <Route exact path='/chatAdmin' render = {
                         ()=>{
                             return (
                                 <div>
@@ -93,7 +104,16 @@ function Home_Page() {
         return (
             <Router>
                 <Switch>
-                    <Route exact path='/*' render = {
+                    <Route path='/' render = {
+                        ()=>{
+                            return (
+                                <div>
+                                    <Icon_User/>
+                                </div>
+                            )
+                        }
+                    }/>
+                    <Route exact path='/chatUser' render = {
                         ()=>{
                             return (
                                 <div>

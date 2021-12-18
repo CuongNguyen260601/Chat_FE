@@ -1,9 +1,15 @@
 window.env = {
   "ALLUSERSPROFILE": "C:\\ProgramData",
+<<<<<<< HEAD
+  "API_URL": "http://localhost:8090",
+  "APPDATA": "C:\\Users\\Admin\\AppData\\Roaming",
+  "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_7860_FOQWSPUPECFIHEEM",
+=======
   "API_URL": "http://192.168.31.102:8090",
   "APPDATA": "C:\\Users\\Admin\\AppData\\Roaming",
   "CATALINA_HOME": "C:\\Users\\Admin\\Downloads\\apache-tomcat-9.0.46-windows-x64\\apache-tomcat-9.0.46",
   "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_16696_JOEIPHGYIRQEVKSR",
+>>>>>>> 3620457abe7f0db4c1e4d31deb93b7f2b4402045
   "COLOR": "1",
   "COLORTERM": "truecolor",
   "CommonProgramFiles": "C:\\Program Files\\Common Files",
@@ -50,8 +56,13 @@ window.env = {
   "OneDriveConsumer": "C:\\Users\\Admin\\OneDrive",
   "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
   "OS": "Windows_NT",
+<<<<<<< HEAD
+  "Path": "D:\\DuAnTotNghiep\\DATN_CHAT\\Chat_cuongnt\\chat_fe\\node_modules\\.bin;D:\\DuAnTotNghiep\\DATN_CHAT\\Chat_cuongnt\\node_modules\\.bin;D:\\DuAnTotNghiep\\DATN_CHAT\\node_modules\\.bin;D:\\DuAnTotNghiep\\node_modules\\.bin;D:\\node_modules\\.bin;C:\\Users\\Admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Program Files (x86)\\NetSarang\\Xshell 6\\;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\Azure Data Studio\\bin;C:\\Users\\Admin\\AppData\\Roaming\\npm;C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\JetBrains\\DataGrip 2021.2.4\\bin;",
+  "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+=======
   "Path": "C:\\Users\\Admin\\Desktop\\Chat_FE\\node_modules\\.bin;C:\\Users\\Admin\\Desktop\\node_modules\\.bin;C:\\Users\\Admin\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Users\\Admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;D:\\itel\\IntelliJ IDEA 2020.2.1\\bin;;C:\\Users\\Admin\\AppData\\Roaming\\npm",
   "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
+>>>>>>> 3620457abe7f0db4c1e4d31deb93b7f2b4402045
   "PROCESSOR_ARCHITECTURE": "AMD64",
   "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 60 Stepping 3, GenuineIntel",
   "PROCESSOR_LEVEL": "6",
