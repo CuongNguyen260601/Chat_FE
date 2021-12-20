@@ -1,15 +1,9 @@
 window.env = {
   "ALLUSERSPROFILE": "C:\\ProgramData",
-<<<<<<< HEAD
-  "API_URL": "http://localhost:8090",
-  "APPDATA": "C:\\Users\\Admin\\AppData\\Roaming",
-  "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_7860_FOQWSPUPECFIHEEM",
-=======
-  "API_URL": "http://192.168.31.102:8090",
+  "API_URL": "http://192.168.31.102:8898",
   "APPDATA": "C:\\Users\\Admin\\AppData\\Roaming",
   "CATALINA_HOME": "C:\\Users\\Admin\\Downloads\\apache-tomcat-9.0.46-windows-x64\\apache-tomcat-9.0.46",
-  "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_16696_JOEIPHGYIRQEVKSR",
->>>>>>> 3620457abe7f0db4c1e4d31deb93b7f2b4402045
+  "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_6292_JTIXRWPZCVGCMIUV",
   "COLOR": "1",
   "COLORTERM": "truecolor",
   "CommonProgramFiles": "C:\\Program Files\\Common Files",
@@ -18,8 +12,6 @@ window.env = {
   "COMPUTERNAME": "DESKTOP-1VF5JA8",
   "ComSpec": "C:\\Windows\\system32\\cmd.exe",
   "EDITOR": "notepad.exe",
-  "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
-  "FPS_BROWSER_USER_PROFILE_STRING": "Default",
   "HOME": "C:\\Users\\Admin",
   "HOMEDRIVE": "C:",
   "HOMEPATH": "\\Users\\Admin",
@@ -45,7 +37,7 @@ window.env = {
   "npm_config_user_agent": "npm/7.20.6 node/v14.17.3 win32 x64 workspaces/false",
   "npm_execpath": "C:\\Users\\Admin\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
   "npm_lifecycle_event": "start",
-  "npm_lifecycle_script": "react-dotenv && react-scripts start",
+  "npm_lifecycle_script": "set port=8998&&react-dotenv && react-scripts start",
   "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
   "npm_package_json": "C:\\Users\\Admin\\Desktop\\Chat_FE\\package.json",
   "npm_package_name": "chat_fe",
@@ -56,13 +48,9 @@ window.env = {
   "OneDriveConsumer": "C:\\Users\\Admin\\OneDrive",
   "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
   "OS": "Windows_NT",
-<<<<<<< HEAD
-  "Path": "D:\\DuAnTotNghiep\\DATN_CHAT\\Chat_cuongnt\\chat_fe\\node_modules\\.bin;D:\\DuAnTotNghiep\\DATN_CHAT\\Chat_cuongnt\\node_modules\\.bin;D:\\DuAnTotNghiep\\DATN_CHAT\\node_modules\\.bin;D:\\DuAnTotNghiep\\node_modules\\.bin;D:\\node_modules\\.bin;C:\\Users\\Admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Program Files (x86)\\NetSarang\\Xshell 6\\;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\Azure Data Studio\\bin;C:\\Users\\Admin\\AppData\\Roaming\\npm;C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\JetBrains\\DataGrip 2021.2.4\\bin;",
-  "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
-=======
   "Path": "C:\\Users\\Admin\\Desktop\\Chat_FE\\node_modules\\.bin;C:\\Users\\Admin\\Desktop\\node_modules\\.bin;C:\\Users\\Admin\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Users\\Admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\Admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;D:\\itel\\IntelliJ IDEA 2020.2.1\\bin;;C:\\Users\\Admin\\AppData\\Roaming\\npm",
   "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
->>>>>>> 3620457abe7f0db4c1e4d31deb93b7f2b4402045
+  "port": "8998",
   "PROCESSOR_ARCHITECTURE": "AMD64",
   "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 60 Stepping 3, GenuineIntel",
   "PROCESSOR_LEVEL": "6",
@@ -75,7 +63,7 @@ window.env = {
   "PSModulePath": "C:\\Users\\Admin\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\PowerShell\\Modules\\",
   "PUBLIC": "C:\\Users\\Public",
   "SESSIONNAME": "Console",
-  "SOCKET": "ws://192.168.31.102:1010",
+  "SOCKET": "ws://192.168.31.102:8999",
   "SystemDrive": "C:",
   "SystemRoot": "C:\\Windows",
   "TEMP": "C:\\Users\\Admin\\AppData\\Local\\Temp",

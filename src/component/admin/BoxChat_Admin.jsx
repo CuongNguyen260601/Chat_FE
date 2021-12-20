@@ -177,7 +177,7 @@ function BoxChat_Admin(props) {
                                 }}
                             />
                         </div>
-                        <input type="text" className="form-control bg-light" placeholder="Message"
+                        <input type="text" autoComplete='off' className="form-control bg-light" placeholder="Message"
                             {...setValue('text',formMes.text)}
                             {...register('text',{required: true, minLength: 1})}
                             onChange = {onChangeData}

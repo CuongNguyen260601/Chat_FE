@@ -9,6 +9,7 @@ import Chat_Admin from './admin/Chat_Admin';
 import { setSender, setListUserOnline, setListUserInRoom} from '../redux_action/User_Action';
 import Icon_Admin from './../component/admin/Icon_Admin';
 import Icon_User from '../component/user/Icon_User';
+import Icon_Home from './Icon_Home';
 
 function Home_Page() {
 
@@ -63,7 +64,16 @@ function Home_Page() {
         return (
             <Router>
                 <Switch>
-                    <Route exact path='/*' render = {
+                    <Route exact path='/' render = {
+                        ()=>{
+                            return (
+                                <div>
+                                    <Icon_Home/>
+                                </div>
+                            )
+                        }
+                    }/>
+                    <Route exact path='/home' render = {
                         ()=>{
                             return (
                                 <div>
@@ -79,7 +89,7 @@ function Home_Page() {
         return (
             <Router>
                 <Switch>
-                    <Route path='/' render = {
+                    <Route exact path='/' render = {
                         ()=>{
                             return (
                                 <div>
@@ -88,7 +98,7 @@ function Home_Page() {
                             )
                         }
                     }/>
-                    <Route exact path='/chatAdmin' render = {
+                    <Route exact path='/home' render = {
                         ()=>{
                             return (
                                 <div>
@@ -104,7 +114,7 @@ function Home_Page() {
         return (
             <Router>
                 <Switch>
-                    <Route path='/' render = {
+                    <Route exact path='/' render = {
                         ()=>{
                             return (
                                 <div>
@@ -113,7 +123,7 @@ function Home_Page() {
                             )
                         }
                     }/>
-                    <Route exact path='/chatUser' render = {
+                    <Route exact path='/home' render = {
                         ()=>{
                             return (
                                 <div>

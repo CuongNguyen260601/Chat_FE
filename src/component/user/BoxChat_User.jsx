@@ -199,7 +199,7 @@ function BoxChat_User(props) {
 
                             />
                         </div>
-                        <input type="text" className="form-control bg-light" placeholder="Message" id='textSend'
+                        <input type="text" autoComplete='off' className="form-control bg-light" placeholder="Message" id='textSend'
                             {...setValue('text',formMes.text)}
                             {...register('text',{required: true, minLength: 1})}
                             onChange = {onChangeData}

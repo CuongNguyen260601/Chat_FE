@@ -60,7 +60,7 @@
   overflow: hidden;
   width: 100%;
   max-width: 100%;
-  min-height: 100vh;
+  min-height: 98vh;
 }
 
 .form-container {
@@ -116,7 +116,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 40px;
   text-align: center;
   top: 0;
   height: 100%;
@@ -141,5 +140,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 150px;
+  font-size: 18px;
+  font-weight: bold;
 }
